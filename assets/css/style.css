@@ -393,7 +393,8 @@ button {
 }
 
 .footer {
-  font-size: 16px;
+  font-size: 10px;
+  color:#292929
 }
 
 .footer p:first-child {
