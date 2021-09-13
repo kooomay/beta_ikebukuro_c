@@ -59,6 +59,10 @@ h1 {
     list-style: none;
 }
 
+.card img{
+   width:60%
+}
+
 /*ストーリー文のところ*/
 .story-box img{
    width:60%
