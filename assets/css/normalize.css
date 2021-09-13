@@ -59,8 +59,8 @@ h1 {
 }
 
 .card-area li{
-    min-width: 60%;
-    margin: 30px;
+    min-width: 80%;
+    margin: 20px;
     padding: 0;
     list-style: none;
 }
