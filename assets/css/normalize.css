@@ -48,6 +48,7 @@ h1 {
 /*ゲームルールを説明するカードスクロール*/
 .card{
    text-align:center;
+   background-color:black;
 }
 
 .card ul{
