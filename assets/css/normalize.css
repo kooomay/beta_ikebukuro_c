@@ -98,6 +98,11 @@ h1 {
    font-size:20px;
 }
 
+/*ゲームスタートのボタン*/
+.game-start{
+   width:75%;
+}
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
