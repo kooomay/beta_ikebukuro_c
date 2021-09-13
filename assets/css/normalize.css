@@ -59,6 +59,11 @@ h1 {
     list-style: none;
 }
 
+/*ストーリー文のところ*/
+.story-box img{
+   width:60%
+}
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
