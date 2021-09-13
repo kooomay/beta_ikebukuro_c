@@ -44,6 +44,20 @@ h1 {
 
 /* Grouping content
    ========================================================================== */
+/*ゲームルールを説明するカードスクロール*/
+.card ul{
+    display: flex;
+    overflow-x:scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.card li{
+    min-width: 30%;
+    margin: 30px;
+    padding: 0;
+    list-style: none;
+}
 
 /**
  * 1. Add the correct box sizing in Firefox.
