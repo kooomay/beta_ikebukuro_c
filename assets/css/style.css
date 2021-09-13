@@ -29,6 +29,7 @@ body {
 }
 
 .main-box{
+  margin:0px
   background-image: url("assets/images/background.png");
   background-attachment: fixed;
   background-size: cover;
