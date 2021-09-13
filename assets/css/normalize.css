@@ -59,13 +59,13 @@ h1 {
 
 .card-area li{
     min-width: 45%;
-    margin: 20px;
+    margin: 50px;
     padding: 0;
     list-style: none;
 }
 
 .card-area img{
-   width:40%;
+   width:45%;
 }
 
 /*
