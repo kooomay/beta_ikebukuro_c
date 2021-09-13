@@ -26,13 +26,10 @@ body {
   list-style: none;
   color: white;
   margin: 0;
-  background-image: url("assets/images/background.png");
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .main-box{
-  margin:0px
+  margin:0px;
   background-image: url("assets/images/background.png");
   background-attachment: fixed;
   background-size: cover;
