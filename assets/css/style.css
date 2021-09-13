@@ -28,6 +28,12 @@ body {
   margin: 0;
 }
 
+.main-box{
+  background-image: url("assets/images/background.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 img {
   width: 100%;
 }
