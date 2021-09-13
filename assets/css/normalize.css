@@ -46,26 +46,26 @@ h1 {
 /* Grouping content
    ========================================================================== */
 /*ゲームルールを説明するカードスクロール*/
-.card{
+.card-area{
    text-align:center;
    background-color:black;
 }
 
-.card ul{
+.card-area ul{
     display: flex;
     overflow-x:scroll;
     margin: 0;
     padding: 0;
 }
 
-.card li{
+.card-area li{
     min-width: 30%;
     margin: 30px;
     padding: 0;
     list-style: none;
 }
 
-.card img{
+.card-area img{
    width:60%;
 }
 
