@@ -74,6 +74,10 @@ h1 {
    width:60%;
 }
 
+.story{
+   text-align:center;
+}
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
