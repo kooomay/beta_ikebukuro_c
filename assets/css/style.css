@@ -28,6 +28,10 @@ body {
   margin: 0;
 }
 
+element.style{
+  background-attachment:fixed;
+}
+
 .main-box{
   margin:0px;
 /*   background-image: url("assets/images/background.png"); */
