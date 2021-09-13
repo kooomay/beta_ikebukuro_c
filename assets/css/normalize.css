@@ -46,6 +46,10 @@ h1 {
 /* Grouping content
    ========================================================================== */
 /*ゲームルールを説明するカードスクロール*/
+.card{
+   text-align:center;
+}
+
 .card ul{
     display: flex;
     overflow-x:scroll;
