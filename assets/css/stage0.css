@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    background-image: url(assets/images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    width: 100%;
+    margin: 0px;
+}
+
+.logo img{
+    width: 35%;
+    margin: 0px;
+}
+
+.question img{
+    width: 40%;
+}
+
+.ans-title{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.box{
+    text-align: center;
+}
+
+.box img{
+    width: 100%;
+}
+
+.textbox{
+    width: 400px;
+    padding: 12px 12px;
+    border-radius: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    background-image: none;
+    background-color: white;
+    font-size: 18px;
+    color:#252422;
+    text-align: center;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
+  }
+
+.ans-btn{
+    text-align: center;
+    margin: 20px;
+}
+
+.answer-button{
+    width: 40%;
+}
+
+.ans-btn img:hover {
+	opacity: 0.8 ;
+}
+
+.messege h1{
+    font-size:40px;
+    margin-top: 25%;
+    filter: blur(100px);
+	animation: blur-anim2 3s linear forwards;
+}
+
+@keyframes blur-anim2 {
+	100% {	filter: blur(0); }
+}
+
+footer {
+    font-size: 10px;
+    color:#292929;
+    background-color: #e6e6e6;
+    margin:0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
