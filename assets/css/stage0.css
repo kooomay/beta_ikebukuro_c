@@ -66,6 +66,10 @@ body{
 	opacity: 0.8 ;
 }
 
+video{
+    width: 100%;
+}
+
 .messege h1{
     font-size:40px;
     margin-top: 25%;
