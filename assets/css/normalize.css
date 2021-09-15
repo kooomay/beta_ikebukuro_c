@@ -109,7 +109,8 @@ h1 {
 
 /*stage-title*/
 .titlearea img{
-	width:50%
+	width:50%;
+	text-align:center;
 }
 
 /**
