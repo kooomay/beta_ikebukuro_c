@@ -1,7 +1,7 @@
 function answer()
         {
           // "こうもり"の部分を変えて答えを変更
-          if(form.ans_input.value=="こうもり"){
+          if(form.ans_input.value=="あおきあか"){
           window.location.href = 'stage1-2.html';
         }
           else{
