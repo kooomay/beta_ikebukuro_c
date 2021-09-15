@@ -179,6 +179,15 @@ h1 {
 	text-align:center;
 }
 
+/*ヒントのサイト*/
+.hint{
+	text-align:center;
+}
+
+.hint img{
+	width:60%;
+}
+
 
 /**
  * 1. Add the correct box sizing in Firefox.
