@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    background-image: url(assets/images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.messege h1{
+    font-size:40px;
+    margin-top: 25%;
+    filter: blur(100px);
+	animation: blur-anim2 3s linear forwards;
+}
+
+@keyframes blur-anim2 {
+	100% {	filter: blur(0); }
+}
