@@ -114,12 +114,15 @@ h1 {
 }
 
 /*ヒント集のCSS*/
+.hint-title{
+	text-align:center;
+}
 .hint-title img{
-	width:60% 
+	width:60% ;
 }
 
 .hint img{
-	width:60%
+	width:60%;
 }
 
 
