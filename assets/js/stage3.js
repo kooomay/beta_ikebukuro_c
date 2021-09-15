@@ -5,7 +5,7 @@ function answer()
           window.location.href = 'final.html';
         }
           else{
-           window.location.href = '.html';
+           window.location.href = 'else-3.html';
           }
         }
 
