@@ -162,6 +162,10 @@ h1 {
 	width:60%;
 }
 
+/*ファイナルステージ*/
+.clear-box img{
+	width:70%
+}
 
 /**
  * 1. Add the correct box sizing in Firefox.
