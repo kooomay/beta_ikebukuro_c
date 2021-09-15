@@ -17,6 +17,10 @@ body{
 	animation: blur-anim2 3s linear forwards;
 }
 
+video{
+	width:100%
+}
+
 @keyframes blur-anim2 {
 	100% {	filter: blur(0); }
 }
