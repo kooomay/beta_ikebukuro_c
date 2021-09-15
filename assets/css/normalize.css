@@ -126,6 +126,10 @@ h1 {
 }
 
 /*ヒントページから謎解きサイトに戻るボタン*/
+.siteback{
+	text-align:center;
+}
+
  .btn-flat-border {
     font-size: 25px;
     margin: 20px;
