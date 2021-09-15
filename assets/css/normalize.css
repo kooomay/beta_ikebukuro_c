@@ -127,7 +127,8 @@ h1 {
 
 /*ヒントページから謎解きサイトに戻るボタン*/
 .return{
-    margin:30px
+    margin:30px;
+    texe-align:center;
 }
 
 .btn-horizontal-border {
