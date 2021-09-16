@@ -163,6 +163,10 @@ h1 {
 }
 
 /*ファイナルステージ*/
+.clear-box{
+	text-align:ceter;
+}
+
 .clear-box img{
 	width:70%
 }
