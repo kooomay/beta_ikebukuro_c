@@ -150,7 +150,9 @@ h1 {
 
 /*デバック会用仮設テキストボックス*/
 .provisional{
+	background-color:#F2F2F2
 	text-align:center;
+	color:#252422
 }
 
 /*ヒントのサイト*/
