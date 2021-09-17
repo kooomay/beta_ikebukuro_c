@@ -232,6 +232,7 @@ nav{
   padding-bottom: 300px;
   text-align: center;
   background: #e6e6e6;
+  border-bottom-right-radius: 20px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
