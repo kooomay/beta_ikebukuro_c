@@ -154,6 +154,12 @@ nav{
     position: fixed;
 }
 
+#menu img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+
 #menuToggle
 {
   display: block;
