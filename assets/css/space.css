@@ -14,7 +14,7 @@ body{
     font-size:40px;
     margin-top: 25%;
     filter: blur(100px);
-	animation: blur-anim2 3s linear forwards;
+	animation: blur-anim2 1s linear forwards;
 }
 
 video{
