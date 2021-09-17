@@ -7,10 +7,10 @@ function answer(){
     const Answer2 = input_answer_2.value ;
     const Answer3 = input_answer_3.value ;
     
-    if(Answer1==1&&Answer2==3&&Answer3==2){
-        window.location.href = 'stage2.html';
+    if(Answer1==3&&Answer2==1&&Answer3==2){
+        window.location.href = 'stage1-2.html';
     }
     else{
-        window.location.href = 'stage3.html';
+        window.location.href = 'else-1.html';
     }
 }
