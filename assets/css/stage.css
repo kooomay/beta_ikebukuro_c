@@ -37,21 +37,56 @@ body{
     width: 100%;
 }
 
-.textbox{
+.textbox-red{
     width: 400px;
+    margin: 15px;
     padding: 12px 12px;
     border-radius: 15px;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 5px solid rgb(152, 26, 26);
+    border-left: 5px solid rgb(152, 26, 26);
+    border-right: 5px solid rgb(152, 26, 26);
+    border-bottom: 5px solid rgb(152, 26, 26);
     background-image: none;
-    background-color: white;
+    background-color: rgb(255, 227, 227);
     font-size: 18px;
-    color:#252422;
+    color:#191919;
     text-align: center;
     font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
-  }
+}
+
+.textbox-blue{
+    width: 400px;
+    margin: 15px;
+    padding: 12px 12px;
+    border-radius: 15px;
+    border-top: 5px solid rgb(11, 12, 119);
+    border-left: 5px solid rgb(11, 12, 119);
+    border-right: 5px solid rgb(11, 12, 119);
+    border-bottom: 5px solid rgb(11, 12, 119);
+    background-image: none;
+    background-color: rgb(237, 237, 255);
+    font-size: 18px;
+    color:#191919;
+    text-align: center;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
+}
+
+.textbox-yello{
+    width: 400px;
+    margin: 15px;
+    padding: 12px 12px;
+    border-radius: 15px;
+    border-top: 5px solid rgb(228, 255, 107);
+    border-left: 5px solid rgb(228, 255, 107);
+    border-right: 5px solid rgb(228, 255, 107);
+    border-bottom: 5px solid rgb(228, 255, 107);
+    background-image: none;
+    background-color: rgb(246, 254, 199);
+    font-size: 18px;
+    color:#191919;
+    text-align: center;
+    font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
+}
 
 .ans-btn{
     text-align: center;
