@@ -25,6 +25,29 @@
       </ul>
     </div>
 </nav>
+       <div class="navigate" id="n1">
+        <div class="balloon2-left">
+            <p>
+                ここから「ヒント」と「ストーリー」と「あそび方」を確認できるよ！<br>
+                問題がわからなかったらどんどんヒントを見て、クリアを目指そう！
+            </p>
+        </div>
+    </div>
+
+    <script>
+        //初期表示は非表示
+        document.getElementById("n1").style.display ="block";
+        
+        function clickBtn1(){
+            const p1 = document.getElementById("n1");
+        
+            if(p1.style.display=="block"){
+                // noneで非表示
+                p1.style.display ="none";
+            }
+        }
+    </script>
+    
     <div class="fakeloader"></div>
     <div class="logo">
         <img src="assets/images/stage-0.png">
