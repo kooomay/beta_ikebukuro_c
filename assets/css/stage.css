@@ -108,7 +108,7 @@ body{
     color: white;
 }
 
-
+/*ステージロゴのcss*/
 .logo{
     width: 100%;
     margin: 0px;
@@ -119,10 +119,12 @@ body{
     margin: 0px;
 }
 
+/*問題の画像のcss*/
 .question img{
     width: 40%;
 }
 
+/*答えがわかったら入力のcss*/
 .ans-title{
     font-size: 25px;
     margin: 20px;
@@ -136,6 +138,7 @@ body{
     width: 100%;
 }
 
+/*テキストボックスのcss*/
 .textbox{
 	width: 400px;
     padding: 12px 12px;
@@ -203,6 +206,7 @@ body{
     font-family: "游明朝体", "YuMincho", "Yu Mincho", "游明朝", "メイリオ", "Meiryo", sans-serif;
 }
 
+/*answerボタンのcss*/
 .ans-btn{
     text-align: center;
     margin: 20px;
@@ -216,39 +220,13 @@ body{
 	opacity: 0.8 ;
 }
 
-.messege h1{
-    font-size:40px;
-    margin-top: 25%;
-    filter: blur(100px);
-	animation: blur-anim2 3s linear forwards;
-}
-
-@keyframes blur-anim2 {
-	100% {	filter: blur(0); }
-}
+/*ヒントをみるボタンのcss*/
 
 .hint img{
     width: 20%;
 }
 
-footer {
-    font-size: 10px;
-    color:#292929;
-    background-color: #e6e6e6;
-    margin:0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
 /*メニューバーのやつ*/
-body
-{
-  margin: 0;
-  padding: 0;
-  background: #232323;
-  color: #cdcdcd;
-}
-
 nav{
     position: fixed;
     z-index: 6;
@@ -373,6 +351,7 @@ nav{
   transform: none;
 }
 
+/*stage間のメッセージ*/
 .messege h1{
     font-size:40px;
     margin-top: 25%;
@@ -380,11 +359,21 @@ nav{
 	animation: blur-anim2 1s linear forwards;
 }
 
-video{
-	width:100%
-}
-
 @keyframes blur-anim2 {
 	100% {	filter: blur(0); }
 }
 
+/*説明する動画のcss*/
+video{
+	width:100%
+}
+
+
+footer {
+    font-size: 10px;
+    color:#292929;
+    background-color: #e6e6e6;
+    margin:0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
