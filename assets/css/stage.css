@@ -90,6 +90,25 @@ body{
     margin-top: 250px;
 }
 
+.btn-flat-border {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  
+.btn-flat-border:hover {
+    background: #00afb9;
+    color: white;
+}
+
+
 .logo{
     width: 100%;
     margin: 0px;
