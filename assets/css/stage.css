@@ -353,3 +353,19 @@ nav{
 {
   transform: none;
 }
+
+.messege h1{
+    font-size:40px;
+    margin-top: 25%;
+    filter: blur(100px);
+	animation: blur-anim2 1s linear forwards;
+}
+
+video{
+	width:100%
+}
+
+@keyframes blur-anim2 {
+	100% {	filter: blur(0); }
+}
+
