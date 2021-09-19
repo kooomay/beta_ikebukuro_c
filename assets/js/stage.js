@@ -1,5 +1,16 @@
 var storyNum =0;
 
+function answer_0()
+        {
+          // "こうもり"の部分を変えて答えを変更
+          if(form.ans_input.value=="こうもり"){
+          window.location.href = 'loading-ok.html';
+        }
+          else{
+           window.location.href = 'loading-return.html';
+          }
+        }
+
 function answer_1(){
     var input_answer_1 = document.getElementById('ans_input_1'); 
     var input_answer_2 = document.getElementById('ans_input_2'); 
