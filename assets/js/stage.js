@@ -32,7 +32,7 @@ function answer_1(){
 function answer_2()
         {
           // "こうもり"の部分を変えて答えを変更
-          if(form.ans_input.value=="こうもり"){
+          if(form.ans_input.value=="kumonoito"){
           window.location.href = 'stage3.html';
           console.log(storyNum +=1);
         }
@@ -44,7 +44,7 @@ function answer_2()
 function answer_3()
         {
           // "こうもり"の部分を変えて答えを変更
-          if(form.ans_input.value=="りんご"){
+          if(form.ans_input.value=="さくじょ"){
           window.location.href = 'stage1.html';
           console.log(storyNum +=1);
         }
