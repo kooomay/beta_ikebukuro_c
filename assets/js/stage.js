@@ -3,7 +3,7 @@ var storyNum =0;
 function answer_0()
         {
           // "こうもり"の部分を変えて答えを変更
-          if(form.ans_input.value=="こうもり"){
+          if(form.ans_input.value=="くも"){
           window.location.href = 'loading-ok.html';
         }
           else{
