@@ -232,6 +232,12 @@ body{
 	margin:10px;
 }
 
+/*ローマ字表のcss*/
+.romaji img{
+	width:60%;
+	margin:10px;
+}
+
 /*メニューバーのやつ*/
 nav{
     position: fixed;
