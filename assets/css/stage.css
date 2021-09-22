@@ -238,6 +238,11 @@ body{
 	margin:10px;
 }
 
+/*謎解きに戻る画像のcss*/
+.return img{
+	width:60%;
+}
+
 /*メニューバーのやつ*/
 nav{
     position: fixed;
