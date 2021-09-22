@@ -380,6 +380,19 @@ video{
 	width:100%
 }
 
+/*ストーリーのサイト*/
+.story{
+	font-size:20px;
+	color:white;
+}
+
+p .you{
+	margin:10px;
+}
+
+p .obj{
+	margin:10px;
+}
 
 footer {
     font-size: 10px;
