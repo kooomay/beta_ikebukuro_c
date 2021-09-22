@@ -31,9 +31,12 @@ body{
     position: absolute;
     display: block;
     z-index: 2;
-    left: 550px;
-    top: 350px;
+    top: 300px;
 
+}
+
+.next img{
+    width: 65%;
 }
 
 video{
@@ -44,7 +47,7 @@ video{
 
 
 .videoBtn{
-    font-size: 25px;
+/*     font-size: 25px;
     text-align: center;
     display: inline-block;
     padding: 20px 100px;
@@ -52,7 +55,7 @@ video{
     color: #00afb9;
     border: solid 2px white;
     border-radius: 3px;
-    transition: .4s;
+    transition: .4s; */
     /* margin-left: -850px;
     margin-top: 350px; */
 }
