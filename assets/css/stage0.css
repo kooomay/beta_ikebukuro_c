@@ -17,7 +17,7 @@ body{
     height: 100%;
 }
 
-.next{
+.next-btn{
     position: absolute;
     display: block;
     z-index: 2;
