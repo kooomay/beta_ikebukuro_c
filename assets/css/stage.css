@@ -463,6 +463,17 @@ p .obj{
 	font-style: normal;
 }
 
+.scrap-title p{
+	font-size:40px;
+	font-style: italic;
+	color:#252422;
+}
+
+.scrap-about{
+	font-size:20px;
+	font-style: normal;
+}
+
 footer {
     font-size: 10px;
     color:#292929;
