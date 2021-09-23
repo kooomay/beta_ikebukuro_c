@@ -489,6 +489,10 @@ video{
 	font-style: normal;
 }
 
+.scrap{
+	margin-bottom:50px;
+}
+
 .scrap-title p{
 	font-size:40px;
 	font-style: italic;
@@ -499,7 +503,6 @@ video{
 	font-size:20px;
 	font-style: normal;
 	color:#252422;
-	margin-bottom:50px;
 }
 
 footer {
