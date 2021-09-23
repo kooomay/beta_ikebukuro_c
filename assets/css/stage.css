@@ -426,8 +426,11 @@ p .obj{
 	color:#252422;
 }
 
-.thx span{
+.thx{
 	margin-top:50px;
+}
+
+.thx span{
   background: -webkit-linear-gradient(left, #479923,#9efbcb, #2d8ee7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
