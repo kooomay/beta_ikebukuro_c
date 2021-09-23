@@ -45,23 +45,40 @@ video{
     margin: 0px;
 }
 
-
-.videoBtn{
-/*     font-size: 25px;
-    text-align: center;
-    display: inline-block;
-    padding: 20px 100px;
-    text-decoration: none;
-    color: #00afb9;
-    border: solid 2px white;
-    border-radius: 3px;
-    transition: .4s; */
-    /* margin-left: -850px;
-    margin-top: 350px; */
+.messege p{
+    filter: blur(100px);
+	animation: blur-anim2 1s linear forwards;
 }
 
-/* .videoBtn:hover{
-    background: #00afb9;
+#b1 #b2 #b3 #b4{
+    display: block;
+}
+
+.messege{
+    font-size: 25px;
+    margin-top:200px;
+    margin-left: 350px;
+}
+
+.you{
+    text-align: left;
     color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
- */
+
+.obj{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    color: rgb(243, 255, 176);
+}
+
+.next-btn{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.next-btn img{
+    width: 50%;
+}
