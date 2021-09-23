@@ -23,7 +23,10 @@ body{
     z-index: 2;
     /* left: 150px; */
     top: 300px;
+}
 
+.next-btn{
+	 width: 50%;
 }
 
 video{
