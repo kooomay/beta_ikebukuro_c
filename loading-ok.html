@@ -19,13 +19,27 @@
     <![endif]-->
         <div class="fakeloader"></div>
 
-        <div class="messege">
-            <h1>
-                <ruby>
-                    <rb>正解</rb><rt>せいかい</rt>
-                </ruby>！
-            </h1>
+        <div class="rel">
+            <video id="video" src="assets/images/stage0-1pre.mp4" poster="assets/images/background.png">
+            </video>
+            <div class="next" id="n1">
+                <img src="assets/images/next.png" onclick="playVideo()" class="videoBtn">
+            </div>
         </div>
+       
+       <script type="text/javascript">
+            document.getElementById("n1").style.display ="block";
+            function playVideo(){
+                const p1 = document.getElementById("n1");
+            
+                if(p1.style.display=="block"){
+                    p1.style.display ="none";
+                }
+                var v= document.getElementById("video");
+                v.play();
+                v.volume = v.volume + 0.25;
+            }
+        </script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="assets/js/fakeLoader.min.js"></script>
