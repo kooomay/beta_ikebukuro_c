@@ -417,6 +417,7 @@ p .obj{
 
 /*final*/
 .white{
+	margin:0px;
 	background-color:white;
 }
 
