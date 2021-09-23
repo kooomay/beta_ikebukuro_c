@@ -45,7 +45,7 @@ function answer_3()
         {
           // "こうもり"の部分を変えて答えを変更
           if(form.ans_input.value=="さくじょ"){
-          window.location.href = 'stage1.html';
+          window.location.href = 'stage3-f.html';
           console.log(storyNum +=1);
         }
           else{
