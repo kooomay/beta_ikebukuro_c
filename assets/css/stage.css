@@ -251,6 +251,14 @@ body{
 	width:40%;
 }
 
+.return-box{
+	margin:30px;
+}
+
+.retun-box img{
+	width:35%;
+}
+
 /*メニューバーのやつ*/
 nav{
     position: fixed;
