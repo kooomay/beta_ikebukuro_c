@@ -21,7 +21,7 @@ function answer_1(){
     const Answer3 = input_answer_3.value ;
     
     if(Answer1==3&&Answer2==1&&Answer3==2){
-        window.location.href = 'stage2.html';
+        window.location.href = 'stage1-2.html';
         console.log(storyNum +=1);
     }
     else{
@@ -33,7 +33,7 @@ function answer_2()
         {
           // "こうもり"の部分を変えて答えを変更
           if(form.ans_input.value=="kumonoito"){
-          window.location.href = 'stage3.html';
+          window.location.href = 'stage2-3.html';
           console.log(storyNum +=1);
         }
           else{
