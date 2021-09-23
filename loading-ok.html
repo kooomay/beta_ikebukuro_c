@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/fakeLoader.min.css">
         <link rel="stylesheet" href="assets/css/stage0.css">
-        <META http-equiv="Refresh" content="6;URL=stage0-1.html">
+<!--         <META http-equiv="Refresh" content="6;URL=stage0-1.html"> -->
     </head>
     <body style="background: url(assets/images/background.png);">
     <!--[if lt IE 7]>
@@ -38,7 +38,13 @@
                 var v= document.getElementById("video");
                 v.play();
                 v.volume = v.volume + 0.25;
+                
+                setTimeOut('next', 11000);
             }
+           
+           function next(){
+               window.location.href = 'stage1.html';
+           }
         </script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
