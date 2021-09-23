@@ -415,6 +415,18 @@ p .obj{
 	margin:10px;
 }
 
+/*final*/
+.member{
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding:50px
+}
+
+.member img{
+    width: 40%;
+}
+
 footer {
     font-size: 10px;
     color:#292929;
