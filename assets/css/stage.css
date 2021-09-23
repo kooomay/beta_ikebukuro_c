@@ -416,6 +416,10 @@ p .obj{
 }
 
 /*final*/
+.title-visual img{
+	width:80%;
+}
+
 .white{
 	margin:0px;
 	background-color:white;
