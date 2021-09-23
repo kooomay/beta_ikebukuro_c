@@ -394,25 +394,42 @@ video{
 }
 
 /*ストーリーのサイト*/
+.story-box{
+    position: relative;
+    width: 100%;
+}
+
 .story{
 	font-size:20px;
 	color:white;
 	text-align:center;
 	margin-left:300px;
-	margin-top:100px
+	margin-top:100px;
 	z-index:1;
+    position: absolute;
 }
 
 .story p{
 	text-align:left;
 }
 
-p .you{
-	margin:10px;
+.you{
+	margin:50px;
 }
 
-p .obj{
-	margin:10px;
+.obj{
+	margin:50px;
+}
+
+.return{
+	position:absolute;
+	background-color:black;
+	z-index:2;
+}
+
+.return img{
+	position:fixed;
+	width: 20%;
 }
 
 /*final*/
