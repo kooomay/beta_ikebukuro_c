@@ -416,6 +416,10 @@ p .obj{
 }
 
 /*final*/
+.white{
+	background-color:white;
+}
+
 .member{
     background-color: white;
     margin-left: 100px;
