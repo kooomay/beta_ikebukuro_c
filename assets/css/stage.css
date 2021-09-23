@@ -427,6 +427,7 @@ p .obj{
 }
 
 .thx span{
+	margin-top:50px;
   background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -440,7 +441,7 @@ p .obj{
 
 .member{
     background-color: white;
-    margin-top: 100px;
+    margin-top: 30px;
     padding:100px
 }
 
