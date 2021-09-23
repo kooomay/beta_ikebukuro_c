@@ -444,6 +444,7 @@ p .obj{
 }
 
 .member{
+	margin-top:-50px;
     background-color: white;
     padding:100px
 }
