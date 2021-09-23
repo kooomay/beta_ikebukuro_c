@@ -420,6 +420,19 @@ p .obj{
 	width:80%;
 }
 
+.thx p{
+	font-size:60px;
+	font-style: italic;
+	color:#252422;
+}
+
+.thx span{
+  background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .white{
 	margin:0px;
 	background-color:white;
