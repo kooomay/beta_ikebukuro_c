@@ -2,10 +2,10 @@ var storyNum =0;
 
 function start(){
           switch(event.data){
-          case YT.PlayerState.ENDED:
-                 break;
-          case YT.PlayerState.PLAYING:
-                 break;
+//           case YT.PlayerState.ENDED:
+//                  break;
+//           case YT.PlayerState.PLAYING:
+//                  break;
           case YT.PlayerState.PAUSED:
                  //動画が一時停止されたときに即座に「playVideo()」を実行して
                  //一時停止ができないようにする。
