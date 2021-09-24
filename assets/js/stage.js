@@ -1,20 +1,22 @@
 var storyNum =0;
 
-switch(event.data){
-     case YT.PlayerState.ENDED:
-            break;
-     case YT.PlayerState.PLAYING:
-            break;
-     case YT.PlayerState.PAUSED:
-            //動画が一時停止されたときに即座に「playVideo()」を実行して
-            //一時停止ができないようにする。
-            player.playVideo();
- 
-            break;
-     case YT.PlayerState.BUFFERING:
-            break;
-     case YT.PlayerState.CUED:
-            break;
+function start(){
+          switch(event.data){
+          case YT.PlayerState.ENDED:
+                 break;
+          case YT.PlayerState.PLAYING:
+                 break;
+          case YT.PlayerState.PAUSED:
+                 //動画が一時停止されたときに即座に「playVideo()」を実行して
+                 //一時停止ができないようにする。
+                 player.playVideo();
+
+                 break;
+          case YT.PlayerState.BUFFERING:
+                 break;
+          case YT.PlayerState.CUED:
+                 break;
+     }
 }
 
 function answer_0()
